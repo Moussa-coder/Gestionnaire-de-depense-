@@ -1,0 +1,14 @@
+post http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Salaire juin",
+    "amount": 78000
+}
+
+###
+
+GET http://127.0.0.1:8000/api/transactions/
+
+###
+DELETE http://127.0.0.1:8000/api/transactions/af566053-fd26-4bec-9fbb-f3282c791bd4/
