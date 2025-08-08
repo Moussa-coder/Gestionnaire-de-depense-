@@ -12,3 +12,22 @@ GET http://127.0.0.1:8000/api/transactions/
 
 ###
 DELETE http://127.0.0.1:8000/api/transactions/af566053-fd26-4bec-9fbb-f3282c791bd4/
+
+###
+PUT http://127.0.0.1:8000/api/transactions/9769ef0c-877e-46be-b5d9-fdadb632b5bd/
+Content-Type: application/json
+
+{
+    "text": "Salaire juillet",
+    "amount": 80000
+}
+
+###
+PATCH http://127.0.0.1:8000/api/transactions/9769ef0c-877e-46be-b5d9-fdadb632b5bd/
+Content-Type: application/json
+
+{
+    "text": "Salaire juillet modifié"
+}
+
+###
